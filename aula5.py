@@ -8,11 +8,12 @@ import math, datetime, random, string
 print(datetime.datetime.now())
 
 #TODO 03
-import string
+# at = input("Digite uma frase/palavra: ")
+# if any(char in string.digits for char in at):
+#     print("A frase/palavra contém números.")
+# else:
+#     print("A frase/palavra não contém números.")
 
-at = input("Digite uma frase/palavra: ")
-if any(char in string.digits for char in at):
-    print("A frase/palavra contém números.")
-else:
-    print("A frase/palavra não contém números.")
+#TODO 04
+print(random.randint(1, 10))
 
